@@ -1,0 +1,19 @@
+.sm-aboutme {
+    width: 70%;
+    height: 70%;
+    padding-left: 100px;
+}
+
+.aboutme-text {
+    text-align: center;
+    font-family: sans-serif;
+}
+.aboutme-column {
+    column-count: 2;
+}
+h2 {
+    font-family: sans-serif;
+}
+p{
+    font-family: sans-serif;
+}
