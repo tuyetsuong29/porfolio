@@ -6,7 +6,7 @@ import Banner from './components/Banner';
 import AboutMe from './components/AboutMe';
 import MyProject from './components/MyProject';
 import Contact from './components/Contact';
-
+import Footer from './components/Footer';
 
 
 function App() {
@@ -17,6 +17,8 @@ function App() {
       <AboutMe />
       <MyProject />
       <Contact />
+      <Footer />
+     
     </div>
   );
 }

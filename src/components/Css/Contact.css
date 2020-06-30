@@ -1,9 +1,26 @@
-h2 {
+.lg-background {
+    background: 2rem;
+}
+
+
+
+
+.card-title{
     font-family: sans-serif;
+    cursor: pointer;
+   
+    
 }
-.card-title {
-    font-family: sans-serif;
+
+.cards:hover{
+   
+    border-radius: 20px;
+    background-color: rgba(236, 183, 85, 0.349);
+    transition-duration: 0.3s;
+    transform: scale(0.9);
 }
-.card-text {
-    font-size: 15px;
+p{
+    font-size: small;
+    
 }
+

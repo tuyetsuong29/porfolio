@@ -8,12 +8,25 @@
     text-align: center;
     font-family: sans-serif;
 }
+
 .aboutme-column {
     column-count: 2;
+    -ms-text-kashida-space: ;
 }
-h2 {
-    font-family: sans-serif;
+
+.text{
+    font-size: large;
 }
-p{
-    font-family: sans-serif;
+
+
+.text:hover{
+animation: boxyRotation 3s infinite ;
+}
+@keyframes boxyRotation {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }

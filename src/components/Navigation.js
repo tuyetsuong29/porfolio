@@ -4,22 +4,26 @@ import "./Css/Navbar.css";
 
 export default function Navigation() {
   return (
-    <div className="navigation py-3">
+    <div className="navigation py-3 px-4 bg-secondary fixed-top">
       <h3>SN</h3>
-      <div>
-        <a className="px-5" href="#">
-          Home
+       <div className= 'd-flex flex-row'>
+        <a className="px-5 text-white" href="#Home">
+          <b>Home</b>
         </a>
-        <a className="px-5" href="#">
-          About me
+        <a className="px-5 text-white" href="#AboutMe">
+          <b>About me</b>
         </a>
-        <a className="px-5" href="#">
-          Project
+        <a className="px-5 text-white" href="Project">
+          <b>Project</b>
         </a>
-        <a className="px-5" href="#">
-          Contact
-        </a>
-      </div>
+        <a className="px-5 text-white" href="Contact">
+          <b>Contact</b>
+        </a> 
+      </div> 
+  
+{/* -------------------- */}
     </div>
+    
   );
 }
+

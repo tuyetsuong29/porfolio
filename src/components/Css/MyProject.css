@@ -1,8 +1,16 @@
 
+ 
+.card-title {
+  font-size: large;
+  color: black ;
+  font-weight: bold; 
+  
+} 
 
-.project-image {
-    width: 20%;
-    height: 20%;
-
+.card-project{
+  cursor: pointer;
+ flex-direction: row-reverse;
+} 
+.bg-project {
+  background-image: url("../../assets/background1.jpg");
 }
-

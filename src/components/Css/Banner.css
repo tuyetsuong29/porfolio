@@ -1,16 +1,28 @@
 .lg-banner {
     width: 100%;
-    height: 100%;
+    height: 50%;
 }
-.banner-content {
+.welcome__section--jobname {
     position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    word-spacing: 10px;
-    color: white;
-   
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 4px;
+    overflow: hidden;
     
-    
-}
+  }
+  .position-absolute {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-self: flex-start;
+      font-size: calc(10px + 2vmin);
+      min-height: 100vh;
+
+
+  }
+  .simulate-typing {
+      font-size: 70px;
+      padding-top: 70px;
+      padding-left: 500px;
+  }
