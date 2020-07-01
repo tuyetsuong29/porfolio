@@ -19,7 +19,7 @@ export default function Footer() {
           </ol>
             <ol className="main__footer--link align-middle text-center py-3">
               &copy; Created by
-              <a href="#" target="_blank" className="main__footer--name">
+              <a href="/" className="main__footer--name">
                 Suong Nguyen
                 <FontAwesomeIcon icon={'faFreecodecamp'} />
               </a>

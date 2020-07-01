@@ -19,11 +19,8 @@ export default function Navigation() {
         <a className="px-5 text-white" href="Contact">
           <b>Contact</b>
         </a> 
-      </div> 
-  
-{/* -------------------- */}
+      </div>
     </div>
-    
   );
 }
 

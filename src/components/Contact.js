@@ -18,7 +18,6 @@ export default function Contact() {
             <a
               href="mailto: nguyentuyetsuong0604@gmail.com"
               className="btn btn-primary btn btn-info "
-              target="_blank"
             >
               Send me
             </a>
